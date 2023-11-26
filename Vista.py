@@ -106,11 +106,17 @@ class VentanaSeno(QDialog):
         self.grafica=SSeno()
         self.verticalLayout.addWidget(self.grafica)
         self.pushButton_3.clicked.connect(self.cerrar)
+        self.pushButton_4.clicked.connect(self.save_graph)
         self.Slider1.valueChanged.connect(self.slider_uno)
         self.Slider2.valueChanged.connect(self.slider_dos)
         self.dateEdit.dateChanged.connect(self.mostrar_fecha_seleccionada)
         self.timeEdit.timeChanged.connect(self.mostrar_hora_seleccionada)
     
+    def save_graph(self):
+        # Guardar el gráfico en un archivo (por ejemplo, en formato PNG)
+        self.grafica.figure.savefig('Señal seno.png')
+        print("Gráfico guardado correctamente.")
+
     def mostrar_fecha_seleccionada(self, date):
         # Método que se llama cuando cambia la fecha seleccionada
         return date.toString('yyyy-MM-dd')
@@ -176,10 +182,16 @@ class Cuadrada(QDialog):
         self.graficac=SCuadrada()
         self.verticalLayout.addWidget(self.graficac)
         self.pushButton_3.clicked.connect(self.cerrar)
+        self.pushButton_4.clicked.connect(self.save_graph)
         self.Slider3.valueChanged.connect(self.slider_tres)
         self.Slider4.valueChanged.connect(self.slider_cuatro)
         self.dateEdit.dateChanged.connect(self.mostrar_fecha_seleccionada)
         self.timeEdit.timeChanged.connect(self.mostrar_hora_seleccionada)
+
+    def save_graph(self):
+        # Guardar el gráfico en un archivo (por ejemplo, en formato PNG)
+        self.graficac.figure.savefig('Señal cuadrada.png')
+        print("Gráfico guardado correctamente.")
     
     def mostrar_fecha_seleccionada(self, date):
         # Método que se llama cuando cambia la fecha seleccionada
@@ -251,10 +263,16 @@ class Diente(QDialog):
         self.graficad=Sierra()
         self.verticalLayout.addWidget(self.graficad)
         self.pushButton_3.clicked.connect(self.cerrar)
+        self.pushButton_4.clicked.connect(self.save_graph)
         self.Slider5.valueChanged.connect(self.slider_cinco)
         self.Slider6.valueChanged.connect(self.slider_seis)
         self.dateEdit.dateChanged.connect(self.mostrar_fecha_seleccionada)
         self.timeEdit.timeChanged.connect(self.mostrar_hora_seleccionada)
+    
+    def save_graph(self):
+        # Guardar el gráfico en un archivo (por ejemplo, en formato PNG)
+        self.graficad.figure.savefig('Señal diente de sierra.png')
+        print("Gráfico guardado correctamente.")
 
     def mostrar_fecha_seleccionada(self, date):
         # Método que se llama cuando cambia la fecha seleccionada

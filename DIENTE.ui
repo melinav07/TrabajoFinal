@@ -80,7 +80,7 @@ color: rgb(255, 255, 255);</string>
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>250</x>
+     <x>50</x>
      <y>370</y>
      <width>261</width>
      <height>41</height>
@@ -542,6 +542,23 @@ color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string>Frecuencia</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>380</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Impact&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Guardar Gráfica</string>
    </property>
   </widget>
  </widget>
