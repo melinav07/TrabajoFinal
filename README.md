@@ -12,3 +12,6 @@ Objetivos Revisados:
 Utilizar un lenguaje de programación adecuado para implementar la interfaz gráfica y las funciones de generación y visualización de señales.
 Enfocarse en la usabilidad, asegurándose de que los controles deslizantes sean intuitivos y responsivos.
 
+[Descripción de la imagen](C:/Users/melin/OneDrive/Escritorio/TrabajoFinal/Metodologia.jpg)
+
+
