@@ -13,5 +13,5 @@ Utilizar un lenguaje de programación adecuado para implementar la interfaz grá
 Enfocarse en la usabilidad, asegurándose de que los controles deslizantes sean intuitivos y responsivos.
 
 
-![Metodologia](https://github.com/melinav07/TrabajoFinal/assets/142039504/9461acc8-c55d-471a-9eb1-2bbea7e90ace)
+![Metodologia](https://github.com/melinav07/TrabajoFinal/assets/142039504/e93226f1-d379-4394-bec3-b034480a1553)
 
